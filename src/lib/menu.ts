@@ -1,0 +1,120 @@
+import type { MenuItem } from "./cart";
+import burger from "@/assets/hero-burger.jpg";
+import fries from "@/assets/fries.jpg";
+import wrap from "@/assets/wrap.jpg";
+import shake from "@/assets/shake.jpg";
+import dessert from "@/assets/dessert.jpg";
+
+export const MENU: MenuItem[] = [
+  {
+    id: "classic-double",
+    name: "Classic Double Stack",
+    price: 8.5,
+    category: "Burgers",
+    image: burger,
+    description: "Two flame-grilled beef patties, melted cheddar, fresh lettuce, vine tomato, house sauce, toasted brioche.",
+    spice: 1,
+    badge: "Bestseller",
+  },
+  {
+    id: "smash-cheese",
+    name: "Smash Cheeseburger",
+    price: 6.0,
+    category: "Burgers",
+    image: burger,
+    description: "Crispy-edged smash patty, double American cheese, pickles, mustard, soft potato bun.",
+    spice: 0,
+  },
+  {
+    id: "fire-burger",
+    name: "Harare Fire Burger",
+    price: 7.5,
+    category: "Burgers",
+    image: burger,
+    description: "Beef patty, peri-peri glaze, jalapeños, smoked cheese, crispy onions. Built for the brave.",
+    spice: 3,
+    badge: "Spicy",
+  },
+  {
+    id: "loaded-fries",
+    name: "Loaded Cheese Fries",
+    price: 4.5,
+    category: "Fries",
+    image: fries,
+    description: "Hand-cut fries, molten cheese sauce, smoky bacon bits, spring onion, sour cream drizzle.",
+    spice: 0,
+    badge: "Hot",
+  },
+  {
+    id: "classic-fries",
+    name: "Golden Salted Fries",
+    price: 2.5,
+    category: "Fries",
+    image: fries,
+    description: "Crispy outside, fluffy inside, dusted with sea salt. The classic done right.",
+  },
+  {
+    id: "peri-fries",
+    name: "Peri-Peri Dust Fries",
+    price: 3.0,
+    category: "Fries",
+    image: fries,
+    description: "Fries tossed in our signature peri-peri seasoning. Sweet heat in every bite.",
+    spice: 2,
+  },
+  {
+    id: "crispy-wrap",
+    name: "Crispy Chicken Wrap",
+    price: 5.5,
+    category: "Wraps",
+    image: wrap,
+    description: "Buttermilk fried chicken, crunchy slaw, pickles, garlic aioli, soft-toasted tortilla.",
+    spice: 1,
+    badge: "Fan Fav",
+  },
+  {
+    id: "nashville-wrap",
+    name: "Nashville Heat Wrap",
+    price: 6.0,
+    category: "Wraps",
+    image: wrap,
+    description: "Spicy buttermilk chicken, ranch, slaw, pickles. Built to make you sweat the good way.",
+    spice: 3,
+  },
+  {
+    id: "strawberry-shake",
+    name: "Strawberry Cloud Shake",
+    price: 4.0,
+    category: "Shakes",
+    image: shake,
+    description: "Real strawberries, vanilla bean ice cream, whipped cream cloud, candied crunch.",
+    badge: "New",
+  },
+  {
+    id: "choc-shake",
+    name: "Double Chocolate Shake",
+    price: 4.0,
+    category: "Shakes",
+    image: shake,
+    description: "Belgian cocoa, chocolate fudge swirl, whipped cream, dark chocolate shavings.",
+  },
+  {
+    id: "lava-cake",
+    name: "Molten Lava Cake",
+    price: 4.5,
+    category: "Sweets",
+    image: dessert,
+    description: "Warm chocolate cake with a flowing molten center, vanilla ice cream, mint.",
+    badge: "Signature",
+  },
+  {
+    id: "donut-stack",
+    name: "Glazed Donut Stack",
+    price: 3.5,
+    category: "Sweets",
+    image: dessert,
+    description: "Three warm glazed donuts, dusted sugar, chocolate dip on the side.",
+  },
+];
+
+export const CATEGORIES = ["All", "Burgers", "Fries", "Wraps", "Shakes", "Sweets"] as const;
