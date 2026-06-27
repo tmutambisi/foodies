@@ -44,10 +44,7 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 pb-16 md:grid-cols-2 md:gap-6 md:px-8 md:pb-24">
         <div className="relative z-10">
-          <span className="mb-5 inline-flex items-center gap-2 rounded-full bg-brand-black px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-brand-yellow">
-            <Flame className="size-3.5 text-brand-orange" />
-            Harare · Graniteside
-          </span>
+
           <h1 className="text-display text-[22vw] leading-[0.85] sm:text-[16vw] md:text-[10rem] lg:text-[12rem]">
             FOODIES<span className="text-brand-orange">.</span>
           </h1>

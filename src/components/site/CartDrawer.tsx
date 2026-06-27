@@ -50,7 +50,6 @@ export function CartDrawer() {
         <div className="flex-1 overflow-y-auto px-6 py-4">
           {lines.length === 0 ? (
             <div className="flex h-full flex-col items-center justify-center gap-3 py-20 text-center">
-              <div className="text-6xl">🍔</div>
               <p className="text-display text-2xl">YOUR BAG IS EMPTY</p>
               <p className="text-sm text-muted-foreground">Add something delicious to get started.</p>
               <Button onClick={() => setOpen(false)} className="mt-2 rounded-full bg-brand-black text-white hover:bg-brand-orange">

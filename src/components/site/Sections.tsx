@@ -109,7 +109,7 @@ export function Social() {
         <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
           <h2 className="text-display text-5xl md:text-7xl">FOLLOW THE<br /><span className="text-brand-yellow">FLAVOR.</span></h2>
           <a href="#" className="inline-flex items-center gap-2 rounded-full bg-brand-yellow px-5 py-2.5 text-sm font-bold uppercase text-brand-black hover:bg-brand-orange hover:text-white">
-            <Instagram className="size-4" /> @vibesandbites
+            <Instagram className="size-4" /> @foodieszw_
           </a>
         </div>
         <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
@@ -137,8 +137,9 @@ export function Footer() {
             <p className="mt-3 max-w-sm text-sm italic text-white/70">"You can't control everything that happens to you… but you can choose to do something with what you're given."</p>
             <p className="mt-3 text-sm text-white/60">41 Kelvin North Rd, Graniteside, Harare · +263 77 375 0709</p>
             <div className="mt-5 flex gap-2">
-              <a href="#" aria-label="Instagram" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-brand-orange"><Instagram className="size-4" /></a>
-              <a href="#" aria-label="Facebook" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-brand-orange"><Facebook className="size-4" /></a>
+              <a href="https://www.instagram.com/foodieszw_/" aria-label="Instagram" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-brand-orange"><Instagram className="size-4" /></a>
+              <a href="https://www.facebook.com/profile.php?id=100089704955318" aria-label="Facebook" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-brand-orange"><Facebook className="size-4" /></a>
+              <p>Developed and mantained by <a href="tungasonic.co.zw">TUNGASONIC</a></p>
             </div>
           </div>
           <div>
@@ -159,10 +160,8 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 text-xs text-white/50 md:flex-row">
-          <p>© {new Date().getFullYear()} Foodies · Harare, Zimbabwe</p>
+          <p>© {new Date().getFullYear()} TUNGASONIC</p>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-white">Privacy</a>
-            <a href="#" className="hover:text-white">Terms</a>
           </div>
         </div>
       </div>
@@ -180,7 +179,7 @@ export function FloatingWhatsapp() {
       className="fixed bottom-24 right-5 z-30 grid size-14 place-items-center rounded-full bg-brand-green text-white shadow-pop transition-transform hover:scale-110 lg:bottom-28"
     >
       <svg viewBox="0 0 24 24" className="size-7 fill-current" aria-hidden>
-        <path d="M20.52 3.48A11.78 11.78 0 0 0 12.05 0C5.5 0 .18 5.32.18 11.87a11.8 11.8 0 0 0 1.58 5.94L0 24l6.34-1.66a11.86 11.86 0 0 0 5.7 1.45h.01c6.55 0 11.87-5.32 11.87-11.87a11.78 11.78 0 0 0-3.4-8.44ZM12.05 21.3a9.43 9.43 0 0 1-4.81-1.32l-.34-.2-3.76.98 1-3.67-.22-.37a9.42 9.42 0 0 1-1.45-5.03c0-5.21 4.24-9.46 9.45-9.46a9.4 9.4 0 0 1 6.69 2.77 9.4 9.4 0 0 1 2.77 6.7c0 5.21-4.24 9.45-9.45 9.45Zm5.45-7.08c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5a9.06 9.06 0 0 1-1.67-2.08c-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01a1.1 1.1 0 0 0-.8.37c-.27.3-1.05 1.02-1.05 2.5 0 1.47 1.08 2.9 1.23 3.1.15.2 2.12 3.24 5.13 4.54.72.31 1.27.5 1.71.64.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"/>
+        <path d="M20.52 3.48A11.78 11.78 0 0 0 12.05 0C5.5 0 .18 5.32.18 11.87a11.8 11.8 0 0 0 1.58 5.94L0 24l6.34-1.66a11.86 11.86 0 0 0 5.7 1.45h.01c6.55 0 11.87-5.32 11.87-11.87a11.78 11.78 0 0 0-3.4-8.44ZM12.05 21.3a9.43 9.43 0 0 1-4.81-1.32l-.34-.2-3.76.98 1-3.67-.22-.37a9.42 9.42 0 0 1-1.45-5.03c0-5.21 4.24-9.46 9.45-9.46a9.4 9.4 0 0 1 6.69 2.77 9.4 9.4 0 0 1 2.77 6.7c0 5.21-4.24 9.45-9.45 9.45Zm5.45-7.08c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5a9.06 9.06 0 0 1-1.67-2.08c-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01a1.1 1.1 0 0 0-.8.37c-.27.3-1.05 1.02-1.05 2.5 0 1.47 1.08 2.9 1.23 3.1.15.2 2.12 3.24 5.13 4.54.72.31 1.27.5 1.71.64.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z" />
       </svg>
     </a>
   );
